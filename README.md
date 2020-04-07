@@ -1,2 +1,3 @@
 # xinge-commons-lock
-分布式锁
+基于redission的分布式锁
+
