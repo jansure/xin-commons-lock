@@ -39,7 +39,8 @@ private RedisLock redisLock;
 // key为 锁的名称
 
 //加锁
-redisLock.tryLock(KEY,requestId);或者redisLock.tryLock(KEY,requestId,expireTime);
+redisLock.tryLock(KEY,requestId);
+或者redisLock.tryLock(KEY,requestId,expireTime);
 try {
     //TODO 干事情
 } catch (Exception e) {
