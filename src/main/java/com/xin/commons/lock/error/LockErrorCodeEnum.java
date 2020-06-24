@@ -1,10 +1,10 @@
-package com.xinge.commons.lock.error;
+package com.xin.commons.lock.error;
 
-import com.xinge.comons.support.code.ErrorCode;
+import com.xin.commons.support.code.ErrorCode;
 
 /**
  * 业务错误码
- * @author: xinge
+ * @author: xin
  */
 public enum LockErrorCodeEnum implements ErrorCode {
 

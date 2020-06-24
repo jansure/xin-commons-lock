@@ -1,13 +1,12 @@
-package com.xinge.commons.lock.service.impl;
+package com.xin.commons.lock.service.impl;
 
-import com.xinge.commons.lock.service.RedissonLocker;
+import com.xin.commons.lock.service.RedissonLocker;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
@@ -27,7 +26,7 @@ import java.util.concurrent.TimeUnit;
  * 可过期性信号量（PermitExpirableSemaphore）
  * 闭锁（CountDownLatch）
  *
- * @author: xinge
+ * @author: xin
  */
 @Slf4j
 @Component

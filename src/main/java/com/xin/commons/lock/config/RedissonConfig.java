@@ -1,4 +1,4 @@
-package com.xinge.commons.lock.config;
+package com.xin.commons.lock.config;
 
 import org.apache.commons.lang3.StringUtils;
 import org.redisson.Redisson;
@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Value;
 
 /**
  * Redisson配置
- * @author: xinge
+ * @author: xin
  */
 @Configuration
 public class RedissonConfig {

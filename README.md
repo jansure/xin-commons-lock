@@ -8,8 +8,8 @@
 #redis使用
 ### 第一步 引入jar
 <dependency>
-    <groupId>com.xinge.commons</groupId>
-    <artifactId>xinge-commons-lock</artifactId>
+    <groupId>com.xin.commons</groupId>
+    <artifactId>xin-commons-lock</artifactId>
 </dependency>
 
 ### 第二步 配置文件

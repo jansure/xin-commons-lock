@@ -1,4 +1,4 @@
-package com.xinge.commons.lock.service;
+package com.xin.commons.lock.service;
 
 import org.redisson.api.RLock;
 

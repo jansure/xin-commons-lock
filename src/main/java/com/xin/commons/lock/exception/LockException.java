@@ -1,12 +1,12 @@
-package com.xinge.commons.lock.exception;
+package com.xin.commons.lock.exception;
 
-import com.xinge.commons.lock.error.LockErrorCodeEnum;
-import com.xinge.comons.support.exception.BizException;
+import com.xin.commons.lock.error.LockErrorCodeEnum;
+import com.xin.commons.support.exception.BizException;
 import lombok.Getter;
 
 /**
  * 业务层异常类
- * @author: xinge
+ * @author: xin
  */
 @Getter
 public class LockException extends BizException {

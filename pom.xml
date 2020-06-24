@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
     <!--parent-->
     <parent>
-        <groupId>com.xinge.commons</groupId>
-        <artifactId>xinge-spring-boot-starter-parent</artifactId>
+        <groupId>com.xin.commons</groupId>
+        <artifactId>xin-spring-boot-starter-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.xinge.commons</groupId>
-    <artifactId>xinge-commons-lock</artifactId>
+    <groupId>com.xin.commons</groupId>
+    <artifactId>xin-commons-lock</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
@@ -20,8 +20,8 @@
     <dependencies>
         <!--公共依赖-->
         <dependency>
-            <groupId>com.xinge.commons</groupId>
-            <artifactId>xinge-commons-support</artifactId>
+            <groupId>com.xin.commons</groupId>
+            <artifactId>xin-commons-support</artifactId>
         </dependency>
 
         <!--redisson客户端-->
